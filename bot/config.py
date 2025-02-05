@@ -38,7 +38,7 @@ class Config(object):
 
 
 class Script(object):
-    START_MESSAGE = """𝖧𝖾𝗒 {mention}\n\n𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗈𝗎𝗋 𝖬𝗈𝗏𝗂𝖾 𝖺𝗇𝖽 𝖶𝖾𝖻𝗌𝖾𝗋𝗂𝖾𝗌 𝖯𝗋𝗈𝗏𝗂𝖽𝖾𝗋 𝖡𝗈𝗍. 𝖤𝗑𝖼𝗅𝗎𝗌𝗂𝗏𝖾𝗅𝗒 𝗐𝗈𝗋𝗄 𝖿𝗈𝗋 <a href='https://t.me/FridayUniverse'>𝖥𝗋𝗂𝖽𝖺𝗒𝖴𝗇𝗂𝗏𝖾𝗋𝗌𝖾</a> !!\n\n𝖤𝗑𝖼𝗅𝗎𝗌𝗂𝗏𝖾 𝖢𝗈𝗇𝗍𝖾𝗇𝗍, 𝖵𝖨𝖯 𝖤𝗑𝗉𝖾𝗋𝗂𝖾𝗇𝖼𝖾."""
+    START_MESSAGE = """𝖧𝖾𝗒 {mention}\n\n𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗈𝗎𝗋 anime ocean file 𝖯𝗋𝗈𝗏𝗂𝖽𝖾𝗋 𝖡𝗈𝗍. 𝖤𝗑𝖼𝗅𝗎𝗌𝗂𝗏𝖾𝗅𝗒 𝗐𝗈𝗋𝗄 𝖿𝗈𝗋 <a href='https://t.me/Animes_Ocean_Network'>anime ocean</a> !!"""
 
     HELP_MESSAGE = os.environ.get(
         "HELP_MESSAGE",
@@ -52,7 +52,7 @@ class Script(object):
 
     NOT_ALLOWED_TEXT = "You are not allowed to send text messages here."
     ARROGANT_REPLY = "You are not my father so don't try to play with me"
-    ABOUT_MESSAGE = f"""○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='tg://user?id={Config.OWNER_ID}'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>\n○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <code>𝖯𝗒𝗍𝗁𝗈𝗇 𝟥</code>\n○ 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 : <a href='tg://user?id={Config.OWNER_ID}'>𝖯𝖺𝗂𝖽</a>\n○ 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : <a href='https://t.me/FridayUniverse'>𝖥𝗋𝗂𝖽𝖺𝗒𝖴𝗇𝗂𝗏𝖾𝗋𝗌𝖾</a>\n○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/+UoOAfvRc8R0zNjg1'>𝖣𝗂𝗌𝖼𝗎𝗌𝗌𝗂𝗈𝗇 𝖢𝗁𝖺𝗍</a>"""
+    ABOUT_MESSAGE = f"""○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='tg://user?id={Config.OWNER_ID}'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>\n○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <code>𝖯𝗒𝗍𝗁𝗈𝗇 𝟥</code>\n○ 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 : <a href='tg://user?id={Config.OWNER_ID}'>𝖯𝖺𝗂𝖽</a>\n○ 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : <a href='https://t.me/Animes_Ocean_Network'>anime ocean</a>\n○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/Animes_Ocean_Network'>main 𝖢𝗁𝖺𝗍</a>"""
 
 
 class Buttons(object):
